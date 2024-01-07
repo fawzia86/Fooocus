@@ -1,5 +1,5 @@
 {
-    "default_model": "juggernautXL_version6Rundiffusion.safetensors",
+    "default_model": "juggernautXL_version8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -38,8 +38,11 @@
     ],
     "default_aspect_ratio": "1280*720",
     "checkpoint_downloads": {
-        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+        "juggernautXL_version8Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {}
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_petfood_1.0.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/43555/model/foodpets.3CMj.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22FoodPets.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240107/us-east-1/s3/aws4_request&X-Amz-Date=20240107T013709Z&X-Amz-SignedHeaders=host&X-Amz-Signature=cbf6fec255be72a6339b6a87e920ed07a5c74dcc78013830490a0ed7022ccca6"
+    }
 }
